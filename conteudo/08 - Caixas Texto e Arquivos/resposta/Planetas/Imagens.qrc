@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagens/01 mercurio.jpg</file>
+        <file>imagens/02 venus.jpg</file>
+        <file>imagens/03 terra.jpg</file>
+        <file>imagens/04 marte.jpg</file>
+        <file>imagens/05 jupiter.jpg</file>
+        <file>imagens/06 saturno.jpg</file>
+        <file>imagens/07 netuno.jpg</file>
+        <file>imagens/08 urano.jpg</file>
+        <file>imagens/planetas 01.jpg</file>
+        <file>imagens/planetas 02.jpg</file>
+    </qresource>
+</RCC>

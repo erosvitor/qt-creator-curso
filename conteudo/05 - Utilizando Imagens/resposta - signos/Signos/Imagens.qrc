@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagens/aquario.jpg</file>
+        <file>imagens/aries.jpg</file>
+        <file>imagens/cancer.jpg</file>
+        <file>imagens/capricornio.jpg</file>
+        <file>imagens/escorpiao.jpg</file>
+        <file>imagens/gemeos.jpg</file>
+        <file>imagens/leao.jpg</file>
+        <file>imagens/libra.jpg</file>
+        <file>imagens/peixes.jpg</file>
+        <file>imagens/sagitario.jpg</file>
+        <file>imagens/touro.jpg</file>
+        <file>imagens/virgem.jpg</file>
+        <file>imagens/signos.jpg</file>
+        <file>imagens/signos02.jpg</file>
+    </qresource>
+</RCC>

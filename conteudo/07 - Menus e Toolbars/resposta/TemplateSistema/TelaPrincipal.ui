@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaPrincipal</class>
+ <widget class="QMainWindow" name="TelaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu Principal - Sistema ...</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSistema">
+    <property name="title">
+     <string>Sistema</string>
+    </property>
+    <addaction name="miIncluirUsuario"/>
+    <addaction name="miPesquisarUsuarios"/>
+    <addaction name="separator"/>
+    <addaction name="miSair"/>
+   </widget>
+   <widget class="QMenu" name="menuAjuda">
+    <property name="title">
+     <string>Ajuda</string>
+    </property>
+    <addaction name="miSobre"/>
+   </widget>
+   <widget class="QMenu" name="menuCadastros">
+    <property name="title">
+     <string>Cadastros</string>
+    </property>
+    <addaction name="miPesquisarClientes"/>
+    <addaction name="miPesquisarFornecedores"/>
+   </widget>
+   <addaction name="menuSistema"/>
+   <addaction name="menuCadastros"/>
+   <addaction name="menuAjuda"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="miPesquisarUsuarios"/>
+   <addaction name="miPesquisarClientes"/>
+   <addaction name="miPesquisarFornecedores"/>
+   <addaction name="miSair"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="miIncluirUsuario">
+   <property name="text">
+    <string>Incluir Usuário</string>
+   </property>
+   <property name="toolTip">
+    <string>Incluir novo usuário</string>
+   </property>
+  </action>
+  <action name="miPesquisarUsuarios">
+   <property name="icon">
+    <iconset resource="Imagens.qrc">
+     <normaloff>:/imagens/usuarios.png</normaloff>:/imagens/usuarios.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pesquisar Usuários</string>
+   </property>
+   <property name="toolTip">
+    <string>Pesquisar usuários cadastrados</string>
+   </property>
+  </action>
+  <action name="miSair">
+   <property name="icon">
+    <iconset resource="Imagens.qrc">
+     <normaloff>:/imagens/sair02.png</normaloff>:/imagens/sair02.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sair</string>
+   </property>
+   <property name="toolTip">
+    <string>Finalizar sistema</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="miSobre">
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="miPesquisarClientes">
+   <property name="icon">
+    <iconset resource="Imagens.qrc">
+     <normaloff>:/imagens/clientes.png</normaloff>:/imagens/clientes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clientes</string>
+   </property>
+   <property name="toolTip">
+    <string>Pesquisar clientes cadastrados</string>
+   </property>
+  </action>
+  <action name="miPesquisarFornecedores">
+   <property name="icon">
+    <iconset resource="Imagens.qrc">
+     <normaloff>:/imagens/fornecedores.png</normaloff>:/imagens/fornecedores.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fornecedores</string>
+   </property>
+   <property name="toolTip">
+    <string>Pesquisar fornecedores cadastrados</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Imagens.qrc"/>
+ </resources>
+ <connections/>
+</ui>

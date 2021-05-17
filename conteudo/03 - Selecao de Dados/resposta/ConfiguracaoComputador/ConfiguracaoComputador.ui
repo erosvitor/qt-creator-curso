@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfiguracaoComputador</class>
+ <widget class="QWidget" name="ConfiguracaoComputador">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>495</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>495</width>
+    <height>366</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>495</width>
+    <height>366</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ConfiguracaoComputador</string>
+  </property>
+  <widget class="QRadioButton" name="rbDesktop">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>19</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Desktop</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>151</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tipo do computador:</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbNotebook">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>19</y>
+     <width>117</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Notebook</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboLeitorCartao">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>230</y>
+     <width>181</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>--selecione  o tipo--</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>microSD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SDHC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>microSDHC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>xD</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>100</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Processador:</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>450</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="edtProcessador">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>70</y>
+     <width>91</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="buttonSymbols">
+    <enum>QAbstractSpinBox::NoButtons</enum>
+   </property>
+   <property name="decimals">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <double>9.900000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>100</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Memória RAM:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>100</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Disco rígido:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>70</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GHz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>110</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GB</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>150</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GB</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="edtHD">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>90</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="buttonSymbols">
+    <enum>QAbstractSpinBox::NoButtons</enum>
+   </property>
+   <property name="maximum">
+    <number>9999</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="edtRAM">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>90</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="buttonSymbols">
+    <enum>QAbstractSpinBox::NoButtons</enum>
+   </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>100</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conectividade:</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbWireless">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>190</y>
+     <width>91</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wireless</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbBluetooth">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>190</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bluetooth</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbEthernet">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>190</y>
+     <width>91</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ethernet</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Leitor de cartão:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>USB:</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="edtUSB">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>270</y>
+     <width>90</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnMontarDescricao">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>451</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Montrar Descrição Computador</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

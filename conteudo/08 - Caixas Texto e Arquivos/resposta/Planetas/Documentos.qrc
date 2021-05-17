@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>documentos/01 mercurio.txt</file>
+        <file>documentos/02 venus.txt</file>
+        <file>documentos/03 terra.txt</file>
+        <file>documentos/04 marte.txt</file>
+        <file>documentos/05 jupiter.txt</file>
+        <file>documentos/06 saturno.txt</file>
+        <file>documentos/07 netuno.txt</file>
+        <file>documentos/08 urano.txt</file>
+    </qresource>
+</RCC>

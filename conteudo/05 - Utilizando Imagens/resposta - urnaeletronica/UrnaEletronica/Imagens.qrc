@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagens/capitao-america.jpg</file>
+        <file>imagens/hulk.jpg</file>
+        <file>imagens/thor.jpg</file>
+        <file>imagens/homem-de-ferro.jpg</file>
+    </qresource>
+</RCC>
