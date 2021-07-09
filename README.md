@@ -1,7 +1,9 @@
 # QtCreatorCurso
 
 ## Descrição
-O **QtCreatorCurso** é um projeto que reúne vários tópicos sobre a IDE Qt Creator e o Qt SDK. É ideal para ser utilizado por professores e instrutores de cursos sobre C++ e Qt Creator.
+Projeto curso que reúne vários tópicos sobre a IDE Qt Creator e o Qt SDK. 
+
+O projeto contempla teoria, exemplos, exercícios e respostas. É ideal para ser utilizado por professores e instrutores da linguagem C++ e Qt Creator.
 
 ## Conteúdo
 O projeto contempla os seguintes tópicos:
